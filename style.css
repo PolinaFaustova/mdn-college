@@ -8,6 +8,11 @@
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1400px;
+    font-family: san-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    word-spacing: normal;
   }
   
   /* Layout */
@@ -15,6 +20,7 @@
   section {
     float: left;
     width: 50%;
+    margin-bottom: 20px;
   }
   
   aside {
@@ -43,3 +49,69 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  h1, h2 {
+    font-family: Inter;
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  ol, ul{
+    list-style-type: square;
+    list-style-position: inside;
+  }
+
+  a {
+    color: #a66;
+    outline: none;
+  }
+
+  a:hover, a:focus {
+  text-decoration: none;
+  }
+  a:active {
+    background-color: black;
+  }
+  a[href*="http"] {
+    background: url('icons8-external-link-26.png') no-repeat 100% 0;
+    background-size: 12px 12px;
+    padding-right: 15px;
+  }
+
+  nav > ul {
+    list-style-type: none;
+  }
+
+  nav > ul > li > a {
+    text-decoration: none;
+  }
+  nav > ul {
+      padding: 0;
+      width: 100%;
+  }
+
+  nav > ul > li {
+    border: 2px solid #a66;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .nav-links {
+  font-size: 16px;
+  outline: none;
+  text-decoration: none;
+  width: 20%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  }
+
+  .nav-links:hover,
+  .nav-links:focus {
+    color: black;
+    text-decoration: underline;
+  }
